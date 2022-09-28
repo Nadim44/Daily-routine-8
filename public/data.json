@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Bangla",
+        "time": 40,
+        "img": "https://i.pinimg.com/originals/03/a6/d8/03a6d87a9c5570c060fafd248c3af6c9.jpg"
+    },
+    {
+        "id": "2",
+        "name": "English",
+        "time": 30,
+        "img": "https://media.istockphoto.com/vectors/english-vector-id1047570732?s=170667a"
+    },
+    {
+        "id": "3",
+        "name": "Mathematics",
+        "time": 50,
+        "img": "https://media.istockphoto.com/vectors/mathematics-vector-id1044168372"
+    },
+    {
+        "id": "4",
+        "name": "Physics",
+        "time": 70,
+        "img": "https://image.shutterstock.com/image-vector/physics-chalkboard-background-hand-drawn-260nw-1988419205.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Chemistry",
+        "time": 60,
+        "img": "https://image.shutterstock.com/image-vector/chemistry-icons-set-chalkboard-elements-260nw-1028433904.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Biology",
+        "time": 40,
+        "img": "https://thumbs.dreamstime.com/z/biology-hand-drawn-doodles-lettering-education-science-vector-white-background-135246167.jpg"
+    }
+]
