@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './Information.css'
 
 const Information = (props) => {
@@ -8,10 +9,11 @@ const Information = (props) => {
     for (const subject of time) {
         totalTime = totalTime + subject.time
     }
-    const breakTimeHandler = () => {
-        console.log('clicked')
+    // const breakTimeHandler = () => {
+    //     // console.log('clicked')
+    //     const [breakTime,setBreakTime]=useState
 
-    }
+    // }
 
     return (
         <div className='information'>
@@ -24,10 +26,10 @@ const Information = (props) => {
             </div>
             <div>
                 <h2>Add A Break</h2>
-
-                <button className='btn' onClick={breakTimeHandler}>30 <small>min</small></button>
                 <button>40<small>min</small></button>
-                <button>50<small>min</small></button>
+
+                {/* <button className='btn' onClick={breakTimeHandler}>30 <small>min</small></button>
+                <button>50<small>min</small></button> */}
 
             </div>
             <div>

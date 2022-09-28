@@ -25,8 +25,8 @@ const Details = () => {
         <div className='details-container'>
             <div style={{ margin: '20px' }}>
                 <div>
-                    <h1>My Daily Routine</h1>
-                    <h2>Select Today's Subject</h2>
+                    <h1 style={{ color: 'tomato' }}>My Daily Routine</h1>
+                    <h2 >Select Today's Subject</h2>
                 </div>
                 <div className='subjects-container'>
 
