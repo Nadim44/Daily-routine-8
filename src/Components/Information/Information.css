@@ -1,5 +1,17 @@
 .information {
     position: sticky;
     top: 0;
-    /* padding: 10px; */
+}
+
+.study-time {
+    background-color: gray;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.activity {
+    background-color: lightseagreen;
+    border-radius: 15px;
+    width: 100%;
 }

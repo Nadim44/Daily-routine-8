@@ -32,13 +32,13 @@ const Information = (props) => {
                 <button>50<small>min</small></button> */}
 
             </div>
-            <div>
+            <div style={{ marginBottom: '50px', marginTop: '50px' }}>
                 <h2>Time Details</h2>
                 {/* <h4>Study Time: {time.length}</h4> */}
-                <h4 style={{ backgroundColor: 'gray', padding: '5px' }}>Study Time: {totalTime} <small>minutes</small></h4>
-                <h4 id='break-time'>Break Time: 0 <small>minutes</small></h4>
+                <h4 className='study-time'>Study Time: {totalTime} <small>minutes</small></h4>
+                <h4 id='break-time' className='study-time'>Break Time: 0 <small>minutes</small></h4>
             </div>
-            <button style={{ backgroundColor: 'orange' }}>
+            <button className='activity'>
                 <h2>Activity Completed</h2>
             </button>
         </div>

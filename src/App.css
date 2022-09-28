@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+
+}
+
+.question {
+  text-align: start;
+  margin: 30px;
+  border: 2px solid green;
+  padding: 10px;
 }
 
 .App-logo {
