@@ -9,9 +9,21 @@
     gap: 45px;
 }
 
-
+/* 
+@media screen and (max-width:1100px) {
+    .subjects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
 
 
 .personal-details {
     background-color: goldenrod;
+
 }
+
+/* .personal-details {
+    position: sticky;
+    top: 0;
+
+} */

@@ -1,15 +1,26 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Information from '../Information/Information';
 import Subject from '../Subject/Subject';
 import './Details.css'
+
 const Details = () => {
     const [subjects, setSubjects] = useState([]);
+    const [time, setTime] = useState([])
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setSubjects(data))
     }, [])
+
+    const handleAddToCart = (subject) => {
+        // console.log(subject)
+        const newTime = [...time, subject]
+        setTime(newTime)
+    }
+
     return (
         <div className='details-container'>
             <div style={{ margin: '20px' }}>
@@ -23,13 +34,16 @@ const Details = () => {
                         subjects.map(subject => <Subject
                             key={subject.id}
                             subject={subject}
+                            handleAddToCart={handleAddToCart}
                         ></Subject>)
                     }
                 </div>
 
             </div>
-            <div className="personal-details">
-                <p>Nadim Mahamud</p>
+            <div className="personal-details" >
+
+                <Information time={time}></Information>
+
             </div>
         </div>
     );
