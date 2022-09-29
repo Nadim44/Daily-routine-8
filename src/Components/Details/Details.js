@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
@@ -25,7 +27,8 @@ const Details = () => {
         <div className='details-container'>
             <div style={{ margin: '20px' }}>
                 <div>
-                    <h1 style={{ color: 'tomato' }}>My Daily Routine</h1>
+                    <h1 style={{ color: 'tomato' }}><FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon> My Daily Routine</h1>
+
                     <h2 >Select Today's Subject</h2>
                 </div>
                 <div className='subjects-container'>

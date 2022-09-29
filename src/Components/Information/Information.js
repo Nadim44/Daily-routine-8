@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Break from '../Break/Break';
 import './Information.css'
 
 const Information = (props) => {
@@ -26,7 +27,11 @@ const Information = (props) => {
             </div>
             <div>
                 <h2>Add A Break</h2>
-                <button>40<small>min</small></button>
+                {/* <Break></Break> */}
+                <button className='break-btn'>20<small>min</small></button>
+                <button className='break-btn'>30<small>min</small></button>
+                <button className='break-btn'>40<small>min</small></button>
+                <button className='break-btn'>50<small>min</small></button>
 
                 {/* <button className='btn' onClick={breakTimeHandler}>30 <small>min</small></button>
                 <button>50<small>min</small></button> */}
