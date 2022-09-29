@@ -8,9 +8,6 @@ const Information = (props) => {
     for (const subject of time) {
         totalTime = totalTime + subject.time
     }
-    // const breakTimeHandler = () => {
-    //     // console.log('clicked')
-    // }
 
     return (
         <div className='information'>
@@ -23,19 +20,13 @@ const Information = (props) => {
             </div>
             <div>
                 <h2>Add A Break</h2>
-
                 <button className='break-btn'>20<small>min</small></button>
                 <button className='break-btn'>30<small>min</small></button>
                 <button className='break-btn'>40<small>min</small></button>
                 <button className='break-btn'>50<small>min</small></button>
-
-                {/* <button className='btn' onClick={breakTimeHandler}>30 <small>min</small></button>
-                <button>50<small>min</small></button> */}
-
             </div>
             <div style={{ marginBottom: '50px', marginTop: '50px' }}>
                 <h2>Time Details</h2>
-                {/* <h4>Study Time: {time.length}</h4> */}
                 <h4 className='study-time'>Study Time: {totalTime} <small>minutes</small></h4>
                 <h4 id='break-time' className='study-time'>Break Time: 0 <small>minutes</small></h4>
             </div>

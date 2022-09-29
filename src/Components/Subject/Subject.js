@@ -2,10 +2,8 @@ import React from 'react';
 import './Subject.css'
 
 const Subject = (props) => {
-    // console.log(props.subject)
     const { name, img, time } = props.subject;
     // console.log(props)
-    // const {handleAddToCart}=props
 
     return (
         <div className='subject'>
