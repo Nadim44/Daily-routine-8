@@ -18,17 +18,17 @@ const Information = (props) => {
                 </div>
                 <p style={{ padding: '10px' }}>My name is Nadim. I did my Diploma course in computer From Narsingdi Polytechnic Institute. Currently i pursuing BSC in CSE at Eastern University.</p>
             </div>
-            <div>
+            {/* <div>
                 <h2>Add A Break</h2>
                 <button className='break-btn'>20<small>min</small></button>
                 <button className='break-btn'>30<small>min</small></button>
                 <button className='break-btn'>40<small>min</small></button>
                 <button className='break-btn'>50<small>min</small></button>
-            </div>
+            </div> */}
             <div style={{ marginBottom: '50px', marginTop: '50px' }}>
                 <h2>Time Details</h2>
                 <h4 className='study-time'>Study Time: {totalTime} <small>minutes</small></h4>
-                <h4 id='break-time' className='study-time'>Break Time: 0 <small>minutes</small></h4>
+                {/* <h4 id='break-time' className='study-time'>Break Time: 0 <small>minutes</small></h4> */}
             </div>
             <button className='activity'>
                 <h2>Activity Completed</h2>
